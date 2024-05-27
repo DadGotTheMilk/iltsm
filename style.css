@@ -1,0 +1,242 @@
+header {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.7em;
+}
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+h1,
+h2,
+h3 {
+  padding-bottom: 20px;
+}
+#navbar {
+  background-color: rgba(0, 0, 0, 0.855);
+  overflow: auto;
+  color: white;
+}
+#navbar a {
+  color: white;
+}
+#navbar h1 {
+  float: left;
+  padding: 20px;
+}
+#navbar ul {
+  list-style: none;
+  float: right;
+}
+#navbar ul li {
+  float: left;
+}
+#navbar ul li a {
+  display: block;
+  padding: 30px;
+  text-align: center;
+}
+#navbar ul li a:hover {
+  background-color: rgb(67, 67, 67);
+  color: cyan;
+}
+h3,
+h2 {
+  text-align: center;
+}
+div {
+  text-align: center;
+}
+.name {
+  float: left;
+  padding-left: 200px;
+}
+.number {
+  float: left;
+  padding-left: 150px;
+}
+.bai {
+  padding-right: 67px;
+}
+button {
+  margin-left: 1100px;
+}
+h4 {
+  color: red;
+}
+
+#showcase {
+  background: url(/img/bb.jpg) no-repeat center center/cover;
+  height: 600px;
+}
+.showcase-content {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 170px;
+}
+.showcase-content h1 {
+  font-size: 60px;
+  padding-bottom: 40px;
+}
+.primary {
+  color: orange;
+}
+.container a {
+  display: inline-block;
+  font-size: 10px;
+  background-color: #ffffff;
+  color: black;
+  padding: 15px 18px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container a:hover {
+  background-color: #888;
+  color: floralwhite;
+}
+#information {
+  height: 654px;
+}
+.photo-info {
+  background: url(/img/a.jpg) no-repeat center center/cover;
+  min-height: 100%;
+  width: 50%;
+  float: left;
+}
+.text-info {
+  width: 50%;
+  float: right;
+  text-align: center;
+  top: 100px;
+  position: relative;
+}
+.text-info a {
+  background-color: #444;
+  padding: 10px;
+  position: relative;
+  top: 20px;
+  border-radius: 5px;
+  color: black;
+}
+.text-info a:hover {
+  background-color: #888;
+  color: floralwhite;
+}
+.library {
+  width: 33.3%;
+  float: left;
+}
+.canteen {
+  width: 33.3%;
+  float: left;
+}
+.fitness {
+  width: 33.3%;
+  float: left;
+}
+.heheh p {
+  font-size: 15px;
+}
+.heheh h2 {
+  font-size: 20px;
+}
+.fitness,
+.library {
+  background-color: rgb(255, 136, 0);
+  height: 100%;
+}
+.canteen {
+  background-color: yellow;
+  height: 100%;
+}
+
+.foot {
+  background-color: #444;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+}
+.heheh {
+  height: 300px;
+}
+.beb {
+  height: 300px;
+}
+.text {
+  padding-top: 20px;
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+.pic {
+  width: 50%;
+  float: left;
+  min-height: 100%;
+}
+.pic img {
+  height: 300px;
+  border-radius: 70%;
+}
+#comments {
+  height: 100%;
+  background: url(/img/W.jpg) no-repeat center center/cover;
+  padding-top: 100px;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 20px;
+}
+#comments h2 {
+  color: #fff;
+  text-align: center;
+  padding-bottom: 40px;
+}
+#comments .comment1 {
+  padding: 20px;
+  background-color: orangered;
+  color: black;
+  margin-bottom: 40px;
+}
+.comment1 img {
+  border-radius: 50%;
+  width: 25%;
+  height: 120px;
+  width: 145px;
+}
+.comment1 p {
+  width: 75%;
+  float: right;
+}
+
+#comments .comment2 {
+  padding: 20px;
+  background-color: orangered;
+  color: black;
+  margin-bottom: 40px;
+}
+.comment2 img {
+  border-radius: 50%;
+  width: 25%;
+  height: 120px;
+  width: 145px;
+}
+.comment2 p {
+  width: 75%;
+  float: right;
+}
+.container10 {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0 20px;
+}
+#contact-form .formgroup {
+  margin-bottom: 20px;
+}
